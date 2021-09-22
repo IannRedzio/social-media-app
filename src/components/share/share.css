@@ -8,7 +8,6 @@
 
 .shareWrapper {
   padding: 10px;
-
 }
 
 .shareTop {
@@ -45,8 +44,7 @@
 
 .shareOptions {
   display: flex;
-  margin-right: 20px;
-
+  margin-left: 20px;
 }
 
 .shareOption {
@@ -59,4 +57,20 @@
 .shareIcon {
   font-size: 18px;
   margin-right: 3px;
+}
+
+.shareOptionText {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.shareButton {
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: green;
+  font-weight: 500;
+  margin-right: 20px;
+  cursor: pointer;
+  color: white;
 }
